@@ -1,0 +1,93 @@
+header{
+    margin: 10px auto;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+hr{
+    margin: 0px 100px;
+}
+#menu{
+    padding: 8px 0px 5px;
+}
+ul{
+    list-style: none;
+}
+.item__menu{
+    float: left;
+    margin: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: #000000;
+}
+ul>li>ul{
+    display: none;
+    position: absolute;
+    margin-left: 0;
+}
+ul>li:hover>ul{
+    display: block;
+    text-align: center;
+    background-color: #d8d8d8;
+    border-radius: 8px;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+/* main */
+/* index */
+.grid__container{
+    margin: 30px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    grid-template-areas: "peluqueria auto auto"
+                         "peluqueria auto auto";
+    gap: 10px;
+}
+.categoria{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.categoria__peluqueria{
+    grid-area: peluqueria;
+}
+.articulos{
+    margin: auto 50px 40px;
+}
+.articulo{
+    border: #707475 2px solid;
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+    margin-top: 20px;
+}
+.articulo__imagen img{
+    width: 160px;
+}
+.articulo__info{
+    padding-left: 15px;
+}
+.articulo__info p,.articulo__info a{
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+#footer{
+    background-color: #B3B6B7;
+    width: 100%;
+}
+.footer__info{
+    text-align: center;
+    padding: 80px;
+    padding-top: 59px;
+}
