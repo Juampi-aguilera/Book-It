@@ -97,7 +97,14 @@ ul>li:hover>ul{
     padding-top: 59px;
 }
 
-
+/* negocio */
+.negocio__section{
+    padding: 25px 35px;
+}
+.imagen__negocio{
+    height: 400px;
+    padding-top: 15px;
+}
 
 /* login */
 #arrow__back{
