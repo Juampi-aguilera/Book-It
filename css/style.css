@@ -96,6 +96,15 @@ ul>li:hover>ul{
     padding: 80px;
     padding-top: 59px;
 }
+.footer__info h5{
+    margin-bottom: 10px;
+}
+.reserva{
+    position:absolute;
+    top: 270px;
+    margin-left: 80px;
+    display: inline-block;
+}
 
 /* negocio */
 .negocio__section{
