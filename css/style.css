@@ -62,7 +62,7 @@ ul>li:hover>ul{
     text-align: center;
 
 }
-.categoria__peluqueria{
+.categoria__barberia{
     grid-area: peluqueria;
 }
 .articulos{
