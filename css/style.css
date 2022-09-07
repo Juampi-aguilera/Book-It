@@ -50,20 +50,17 @@ ul>li:hover>ul{
 .grid__container{
     margin: 30px 70px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px;
-    grid-template-areas: "peluqueria auto auto"
-                         "peluqueria auto auto";
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px ;
+    /* grid-template-areas: "peluqueria auto auto"
+                         "peluqueria auto auto"; */
+    gap: 20px;
 }
 .categoria{
     border: 2px solid black;
     border-radius: 15px;
     text-align: center;
-
-}
-.categoria__barberia{
-    grid-area: peluqueria;
+    /* max-width: 250px; */
 }
 .articulos{
     margin: auto 50px 40px;
