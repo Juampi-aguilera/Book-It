@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@500&display=swap');
+
 header{
     margin: 10px auto;
 }
 h1{
+    font-family: 'Noto Serif Gujarati', serif;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -33,7 +36,8 @@ ul>li>ul{
     margin-left: 0;
 }
 ul>li:hover>ul{
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     background-color: #d8d8d8;
     border-radius: 8px;
