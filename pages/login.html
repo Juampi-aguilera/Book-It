@@ -18,21 +18,20 @@
 			<div class="app-title">
 				<h1>Login</h1>
 			</div>
-			<div class="login-form">
+			<form class="login-form">
 				<div>
 					<div class="control-group">
-						<input type="text" class="login-field" value="" placeholder="username" id="login-name">
+						<input type="text" class="login-field" value="" placeholder="username" id="login-name" required>
 						<label class="login-field-icon fui-user" for="login-name"></label>
-						</div>
-		
-						<div class="control-group">
-						<input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+					</div>		
+					<div class="control-group">
+						<input type="password" class="login-field" value="" placeholder="password" id="login-pass" required>
 						<label class="login-field-icon fui-lock" for="login-pass"></label>
-						</div>
+					</div>
 				</div>
-				<a class="btn btn-primary btn-large btn-block login-btn" href="#">Login</a>
+				<input class="btn btn-primary btn-large btn-block login-btn" type="submit" value="Login">
 				<a class="login-link" href="#">Register</a>
-			</div>
+			</form>
 		</div>
 	</div>
 

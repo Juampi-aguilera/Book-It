@@ -43,6 +43,11 @@ ul>li:hover>ul{
     border-radius: 8px;
     margin-right: 10px;
 }
+
+.dropdown{
+    border-color: white;
+}
+
 /* main */
 .logo__usuario{
     position:absolute;
@@ -56,15 +61,13 @@ ul>li:hover>ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 250px ;
-    /* grid-template-areas: "peluqueria auto auto"
-                         "peluqueria auto auto"; */
     gap: 20px;
 }
 .categoria{
     border: 2px solid black;
     border-radius: 15px;
     text-align: center;
-    /* max-width: 250px; */
+    max-height: 250px;
 }
 .articulos{
     margin: auto 50px 40px;

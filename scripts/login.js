@@ -4,19 +4,19 @@ const form = document.querySelector(".login-form");
 const loginBtn = document.querySelector(".login-btn");
 const toggleBtn = document.querySelector(".login-link");
 
-const cambiarARegister = () =>{
+const toggleLogin = () =>{
     if(titulo.textContent=="Login"){
         titulo.textContent="Register";
-        loginBtn.textContent="Register";
+        loginBtn.value="Register";
         toggleBtn.textContent="Login";
     }else{
         titulo.textContent="Login";
-        loginBtn.textContent="Login";
+        loginBtn.value="Login";
         toggleBtn.textContent="Register";
     }
 }
 
 toggleBtn.addEventListener("click", ()=>{
-    cambiarARegister();
+    toggleLogin();
 })
 
