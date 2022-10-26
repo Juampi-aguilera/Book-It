@@ -67,7 +67,14 @@ ul>li:hover>ul{
     border: 2px solid black;
     border-radius: 15px;
     text-align: center;
-    max-height: 250px;
+    max-width: 290px;
+    /* min-width: 185px; */
+    background-image: url(../images/logo_barberia.png); /* sacar */
+    background-position: center;
+    background-size:cover;
+}
+.categoria_barberia{
+    background-image: url(../images/logo_barberia.png);
 }
 .articulos{
     margin: auto 50px 40px;
@@ -111,12 +118,21 @@ ul>li:hover>ul{
 }
 
 /* negocio */
+
 .negocio__section{
     padding: 25px 35px;
 }
+.articulo__principal--negocio{
+    
+}
 .imagen__negocio{
     height: 400px;
-    padding-top: 15px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.reserva{
+    
 }
 
 /* login */
