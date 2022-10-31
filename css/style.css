@@ -69,12 +69,17 @@ ul>li:hover>ul{
     text-align: center;
     max-width: 290px;
     /* min-width: 185px; */
-    background-image: url(../images/logo_barberia.png); /* sacar */
     background-position: center;
     background-size:cover;
 }
-.categoria_barberia{
+.categoria__barberia{
     background-image: url(../images/logo_barberia.png);
+}
+.categoria__manicura{
+    background-image: url(../images/logo_manicura.png);
+}
+.categoria__maquillaje{
+    background-image: url(../images/logo_maquillaje.png);
 }
 .articulos{
     margin: auto 50px 40px;
@@ -122,17 +127,19 @@ ul>li:hover>ul{
 .negocio__section{
     padding: 25px 35px;
 }
-.articulo__principal--negocio{
-    
-}
+
 .imagen__negocio{
     height: 400px;
     margin-top: 15px;
     border: 2px solid black;
     border-radius: 15px;
 }
-.reserva{
-    
+.reserva div{
+    display: flex;
+    flex-direction: column;
+}
+#confirm-btn{
+    width: 170px;
 }
 
 /* login */
