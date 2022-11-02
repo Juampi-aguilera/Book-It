@@ -81,6 +81,9 @@ ul>li:hover>ul{
 .categoria__maquillaje{
     background-image: url(../images/logo_maquillaje.png);
 }
+.categoria__estilista{
+    background-image: url(../images/logo_estilista.png);
+}
 .articulos{
     margin: auto 50px 40px;
 }
@@ -176,6 +179,10 @@ ul>li:hover>ul{
 }
 .control-group {
     margin-bottom: 10px;
+}
+
+.login-btn{
+    cursor: pointer;
 }
 
 input {
