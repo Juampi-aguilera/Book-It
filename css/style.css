@@ -137,9 +137,16 @@ ul>li:hover>ul{
 .reserva div{
     display: flex;
     flex-direction: column;
+    gap:10px;
+}
+.reserva div label{
+    font-size:25px;
 }
 #confirm-btn{
     width: 170px;
+    background-color:#595b5a;
+    color:white;
+    font-weight:600;
 }
 
 /* login */

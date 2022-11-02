@@ -40,13 +40,38 @@
             <h2>NOMBRE DEL NEGOCIO</h2>
             <article class="articulo__principal--negocio">
               <img class="imagen__negocio" src="https://www.boulevardshopping.com.ar/wp-content/themes/yootheme/cache/DSC_0525-ffce4d9f.jpeg">
-              <form class="reserva">
+              <form class="reserva" method="post">
                 <div>
-                  <label>Turno</label>
-                  <input type="datetime-local" required>
+                  <label>Turno :</label>
+                  <input type="date" required>
+                  <input type="time" name="limitetiempo" list="listalimitestiempo" required>
                   <input type="submit" id="confirm-btn">
                 </div>
               </form>
+              <datalist id="listalimitestiempo">
+                <option value="09:00">
+                <option value="09:30">
+                <option value="10:00">
+                <option value="10:30">
+                <option value="11:00">
+                <option value="11:30">
+                <option value="12:00">
+                <option value="12:30">
+                <option value="13:00">
+                <option value="13:30">
+                <option value="14:00">
+                <option value="14:30">
+                <option value="15:00">
+                <option value="15:30">
+                <option value="16:00">
+                <option value="16:30">
+                <option value="17:00">
+                <option value="17:30">
+                <option value="18:00">
+                <option value="18:30">
+                <option value="19:00">
+                <option value="19:30">
+              </datalist>
             </article>
         </section>
     </main>
