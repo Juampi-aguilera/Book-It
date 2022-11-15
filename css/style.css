@@ -54,6 +54,15 @@ ul>li:hover>ul{
     top: 27px;
     right: 130px;
 }
+.crear-negocio{
+    position:absolute;
+    top: 29px;
+    left: 110px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
 /* index */
 .grid__container{
@@ -109,6 +118,7 @@ ul>li:hover>ul{
 #footer{
     background-color: #B3B6B7;
     width: 100%;
+    margin-top: 70px;
 }
 .footer__info{
     text-align: center;
@@ -174,6 +184,10 @@ ul>li:hover>ul{
     color: #777;
 }
 
+.app-title h2{
+    font-size: 35px;
+}
+
 .login-form {
     text-align: center;
 }
@@ -228,4 +242,24 @@ input:focus {
     color: #444;
     display: block;
     margin-top: 12px;
+}
+
+/* agregar negocio */
+
+#form_negocio{
+    margin: 20px;
+}
+
+.input_agregar{
+    border: 2px solid #000000;
+    display: flex;
+    margin: 8px;
+}
+
+.check_agregar{
+    display: flex;
+}
+.check_agregar input{
+    width: auto;
+    margin: 5px;
 }

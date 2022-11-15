@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="sweetalert2.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Book It! - Login</title>
 </head>
@@ -18,14 +19,14 @@
 			<div class="app-title">
 				<h1>Login</h1>
 			</div>
-			<form class="login-form">
-				<div>
+			<form class="login-form" method="post" >
+				<div id="data-form">
 					<div class="control-group">
-						<input name="user_name" type="text" class="login-field" value="" placeholder="username" id="login-name" required>
-						<label class="login-field-icon fui-user" for="login-name"></label>
+						<input name="user_mail" type="email" class="login-field" value="" placeholder="email" id="login-mail" required>
+						<label class="login-field-icon fui-user" for="login-mail"></label>
 					</div>		
 					<div class="control-group">
-						<input name="user_password" type="password" class="login-field" value="" placeholder="password" id="login-pass" required>
+						<input name="user_password" type="password" class="login-field" value="" placeholder="contrasena" id="login-pass" required>
 						<label class="login-field-icon fui-lock" for="login-pass"></label>
 					</div>
 				</div>
@@ -39,6 +40,6 @@
 	</div>
 
 	<!-- js -->
-	<script src="../scripts/login.js"></script>
+	<script src="sweetalert2.min.js"></script>
 </body>
 </html>
